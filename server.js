@@ -2,5 +2,6 @@
 
 const http = require("http");
 
-http.createServer((res, req) => res);
+http.createServer((res, req) => console.log(res));
+
 
